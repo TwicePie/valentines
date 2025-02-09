@@ -1,8 +1,10 @@
 import React from 'react';
+import Hearts from '../components/Hearts';
 
 const Home = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
+      <Hearts />
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">Hello there</h1>
