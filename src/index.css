@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: linear-gradient(135deg, #fbc3df 0%, #fe78c0 100%);
+  min-height: 100vh;
+}
+
 @keyframes float {
   0% {
     transform: translateY(100vh) scale(1);
