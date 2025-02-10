@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className="min-h-screen">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/valentines/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
