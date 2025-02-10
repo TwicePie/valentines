@@ -2,13 +2,14 @@ import Hearts from "../components/Hearts";
 
 const About = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-pink-50 pt-60">
+    <div className="min-h-screen flex items-center justify-center  pt-60">
       <div className="relative group w-64 h-64 cursor-pointer">
         {/* Letter content - placed first so it's behind */}
-        <div className="absolute inset-0 flex items-center justify-center p-4 bg-white rounded-lg shadow-inner transform translate-y-4 group-hover:translate-y-[-120%] transition-transform duration-500 z-10">
+        <div className="absolute inset-4 flex items-center justify-center p-4 bg-white rounded-lg shadow-inner transform translate-y-4 group-hover:translate-y-[-120%] transition-transform duration-500 z-10">
           <div className="text-center">
             <h2 className="text-2xl font-bold text-pink-600 mb-2">Dear My Love</h2>
             <p className="text-gray-700">Selamat ! Kamu dapat bunga yeaaaayyy 🌹🌹🌹</p>
+            <p className="text-gray-700">Ku kasih waktu udaaa di malang yaaaa </p>
           </div>
         </div>
 
