@@ -5,10 +5,10 @@ import About from './pages/About'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/valentines">
       <div className="min-h-screen">
         <Routes>
-          <Route path="/valentines/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
