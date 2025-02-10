@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Hearts from '../components/Hearts';
 
 const Home = () => {
     const [isLetterOpen, setIsLetterOpen] = useState(false);
+    const navigate = useNavigate();
+    const handleNextPage = () => {
+        setIsLetterOpen(false);
+        navigate('/about');
+    };
 
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-opacity-50 gap-4">
@@ -27,9 +33,19 @@ const Home = () => {
                     {isLetterOpen && (
                         <div className="card bg-base-100 p-4 mt-4 animate-fade-down animate-once">
                             <p className="text-pink-400">Dear My love, Arista </p>
-                            <p className="mt-2">You make every day special! ❤️</p>
+                            <p className="mt-2">Selamat Hari Valentine cintakuuuu ! ❤️</p>
                             <p className="mt-2">With love,</p>
-                            <p>Your Secret Admirer</p>
+                            <p>Your Handsome Boy 😏 
+                                <br /> Cintakuuu maaf yaaa aku cuman bisa kasih kamu
+                                <br /> website ini, one day i'll give u another gift !
+                                <br /> Love youuuu ❤️🌻💗💖🌹
+                            </p>
+                            <button 
+                                className="btn btn-ghost mt-4"
+                                onClick={handleNextPage}
+                            >
+                                Next Surprise ➡️
+                            </button>
                         </div>
                     )}
 

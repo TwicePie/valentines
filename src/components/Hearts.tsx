@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Hearts = () => {
   const [hearts, setHearts] = useState<{ id: number; left: number; animationDuration: number }[]>([]);
