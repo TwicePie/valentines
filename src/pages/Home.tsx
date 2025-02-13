@@ -7,7 +7,7 @@ const Home = () => {
     const navigate = useNavigate();
     const handleNextPage = () => {
         setIsLetterOpen(false);
-        navigate('/about');
+        navigate('/gallery');
     };
 
     return (
@@ -38,7 +38,8 @@ const Home = () => {
                             <p>Your Handsome Boy 😏 
                                 <br /> Cintakuuu maaf yaaa aku cuman bisa kasih kamu
                                 <br /> website ini, one day i'll give u another gift !
-                                <br /> Love youuuu ❤️🌻💗💖🌹
+                                <br /> Love youuuu cintakuu sayangkuu cantikku semestaku
+                                <br /> mwah mwahh mwahh ❤️🌻💗💖🌹
                             </p>
                             <button 
                                 className="btn btn-ghost mt-4"
