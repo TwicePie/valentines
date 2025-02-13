@@ -36,8 +36,9 @@ const Home = () => {
                             <p className="mt-2">Selamat Hari Valentine cintakuuuu ! ❤️</p>
                             <p className="mt-2">With love,</p>
                             <p>Your Handsome Boy 😏 
-                                <br /> Cintakuuu maaf yaaa aku cuman bisa kasih kamu
-                                <br /> website ini, one day i'll give u another gift !
+                                <br /> Cintakuuu selamat hari valeentine cantikkk, maaf 
+                                <br /> yaaa aku cuman bisa kasih kamu website ini, 
+                                <br /> one day i'll give u another gift !
                                 <br /> Love youuuu cintakuu sayangkuu cantikku semestaku
                                 <br /> mwah mwahh mwahh ❤️🌻💗💖🌹
                             </p>
